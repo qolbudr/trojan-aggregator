@@ -1,0 +1,36 @@
+name: Generate Trojan Proxies
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: Run PHP script and save YAML
+        run: |
+          php script.php > proxies.yaml
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add proxies.yaml
+          if ! git diff --cached --quiet; then
+            git commit -m "Update proxies.yaml [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
