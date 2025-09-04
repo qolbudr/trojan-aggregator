@@ -20,7 +20,7 @@ jobs:
 
       - name: Run PHP script and save YAML
         run: |
-          php script.php > proxies.yaml
+          php aggregator.php > proxies.yaml
 
       - name: Commit and push changes
         run: |
