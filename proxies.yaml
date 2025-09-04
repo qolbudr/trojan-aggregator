@@ -55,16 +55,16 @@ proxies:
 - name: "TROJAN-5"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 443
+  password: "318cab24-ec99-40a6-a54a-0db9c661a3d0"
+  sni: "aio.proxybox.dpdns.org"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "aio.proxybox.dpdns.org"
 - name: "TROJAN-6"
   type: trojan
   server: "quiz.vidio.com"
@@ -96,14 +96,14 @@ proxies:
   server: "quiz.vidio.com"
   port: 443
   password: "253bc477d4e43c209f2d427272968280"
-  sni: "fe2.update.microsoft.com"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "fe2.update.microsoft.com"
+      Host: "23.45.86.28"
 - name: "TROJAN-9"
   type: trojan
   server: "quiz.vidio.com"
@@ -133,7 +133,7 @@ proxies:
 - name: "TROJAN-11"
   type: trojan
   server: "quiz.vidio.com"
-  port: 3957
+  port: 1523
   password: "253bc477d4e43c209f2d427272968280"
   sni: "23.45.86.28"
   skip-cert-verify: false
@@ -330,14 +330,14 @@ proxies:
   server: "quiz.vidio.com"
   port: 443
   password: "253bc477d4e43c209f2d427272968280"
-  sni: "fe2.update.microsoft.com"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "fe2.update.microsoft.com"
+      Host: "23.45.86.28"
 - name: "TROJAN-27"
   type: trojan
   server: "quiz.vidio.com"
@@ -367,7 +367,7 @@ proxies:
 - name: "TROJAN-29"
   type: trojan
   server: "quiz.vidio.com"
-  port: 3957
+  port: 1523
   password: "253bc477d4e43c209f2d427272968280"
   sni: "23.45.86.28"
   skip-cert-verify: false
