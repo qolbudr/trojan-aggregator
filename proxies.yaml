@@ -3,6 +3,17 @@ proxies:
   type: trojan
   server: "quiz.vidio.com"
   port: 443
+  password: "20U1d7h4xe"
+  skip-cert-verify: false
+  udp: true
+  client-fingerprint: "chrome"
+  network: ws
+  ws-opts:
+    path: "/22124/mehdi"
+- name: "TROJAN-2"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 443
   password: "f282b878-8711-45a1-8c69-5564172123c1"
   sni: "vpn.stupidworld.web.id"
   skip-cert-verify: false
@@ -13,45 +24,32 @@ proxies:
     path: "/Stupid-World/103.106.228.126-2053"
     headers:
       Host: "vpn.stupidworld.web.id"
-- name: "TROJAN-2"
-  type: trojan
-  server: "quiz.vidio.com"
-  port: 8443
-  password: "457f64d5-cc68-4911-82ee-636ebb568a46"
-  sni: "cdn-node-oss-99.paofu.de"
-  skip-cert-verify: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: "/"
-    headers:
-      Host: "cdn-node-oss-99.paofu.de"
 - name: "TROJAN-3"
   type: trojan
   server: "quiz.vidio.com"
-  port: 8443
-  password: "457f64d5-cc68-4911-82ee-636ebb568a46"
-  sni: "cdn-node-oss-99.paofu.de"
+  port: 22222
+  password: "telegram-id-privatevpns"
+  sni: "trojan.burgerip.co.ukhttp/1.1"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "cdn-node-oss-99.paofu.de"
+      Host: "trojan.burgerip.co.ukhttp/1.1"
 - name: "TROJAN-4"
   type: trojan
   server: "quiz.vidio.com"
-  port: 8443
-  password: "457f64d5-cc68-4911-82ee-636ebb568a46"
-  sni: "cdn-node-oss-99.paofu.de"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "cdn-node-oss-99.paofu.de"
+      Host: "ocost-dy.wmlefl.cc"
 - name: "TROJAN-5"
   type: trojan
   server: "quiz.vidio.com"
@@ -81,16 +79,16 @@ proxies:
 - name: "TROJAN-7"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 443
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-8"
   type: trojan
   server: "quiz.vidio.com"
@@ -107,7 +105,7 @@ proxies:
 - name: "TROJAN-9"
   type: trojan
   server: "quiz.vidio.com"
-  port: 443
+  port: 4613
   password: "253bc477d4e43c209f2d427272968280"
   sni: "23.45.86.28"
   skip-cert-verify: false
@@ -120,7 +118,7 @@ proxies:
 - name: "TROJAN-10"
   type: trojan
   server: "quiz.vidio.com"
-  port: 4613
+  port: 1924
   password: "253bc477d4e43c209f2d427272968280"
   sni: "23.45.86.28"
   skip-cert-verify: false
@@ -133,7 +131,7 @@ proxies:
 - name: "TROJAN-11"
   type: trojan
   server: "quiz.vidio.com"
-  port: 1924
+  port: 1523
   password: "253bc477d4e43c209f2d427272968280"
   sni: "23.45.86.28"
   skip-cert-verify: false
@@ -146,7 +144,7 @@ proxies:
 - name: "TROJAN-12"
   type: trojan
   server: "quiz.vidio.com"
-  port: 1523
+  port: 3043
   password: "253bc477d4e43c209f2d427272968280"
   sni: "23.45.86.28"
   skip-cert-verify: false
@@ -159,7 +157,7 @@ proxies:
 - name: "TROJAN-13"
   type: trojan
   server: "quiz.vidio.com"
-  port: 3043
+  port: 4801
   password: "253bc477d4e43c209f2d427272968280"
   sni: "23.45.86.28"
   skip-cert-verify: false
@@ -172,7 +170,7 @@ proxies:
 - name: "TROJAN-14"
   type: trojan
   server: "quiz.vidio.com"
-  port: 4801
+  port: 4317
   password: "253bc477d4e43c209f2d427272968280"
   sni: "23.45.86.28"
   skip-cert-verify: false
@@ -185,163 +183,163 @@ proxies:
 - name: "TROJAN-15"
   type: trojan
   server: "quiz.vidio.com"
-  port: 4317
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  port: 443
+  password: "f282b878-8711-45a1-8c69-5564172123c1"
+  sni: "vpn.stupidworld.web.id"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "23.45.86.28"
+      Host: "vpn.stupidworld.web.id"
 - name: "TROJAN-16"
   type: trojan
   server: "quiz.vidio.com"
   port: 443
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  password: "f282b878-8711-45a1-8c69-5564172123c1"
+  sni: "vpn.stupidworld.web.id"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "23.45.86.28"
+      Host: "vpn.stupidworld.web.id"
 - name: "TROJAN-17"
   type: trojan
   server: "quiz.vidio.com"
   port: 443
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  password: "f282b878-8711-45a1-88c9-5564172123c1"
+  sni: "aio.zipzap.biz.id"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "23.45.86.28"
+      Host: "aio.zipzap.biz.id"
 - name: "TROJAN-18"
   type: trojan
   server: "quiz.vidio.com"
-  port: 4613
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  port: 443
+  password: "f282b878-8711-45a1-8c69-5564172123c1"
+  sni: "aio.nolimit.dpdns.org"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "23.45.86.28"
+      Host: "aio.nolimit.dpdns.org"
 - name: "TROJAN-19"
   type: trojan
   server: "quiz.vidio.com"
-  port: 1924
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  port: 443
+  password: "f282b878-8711-45a1-8c69-5564172123c1"
+  sni: "vpn.stupidworld.web.id"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "23.45.86.28"
+      Host: "vpn.stupidworld.web.id"
 - name: "TROJAN-20"
   type: trojan
   server: "quiz.vidio.com"
-  port: 1523
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  port: 443
+  password: "f282b878-8711-45a1-8c69-5564172123c1"
+  sni: "aio.nolimit.dpdns.org"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "23.45.86.28"
+      Host: "aio.nolimit.dpdns.org"
 - name: "TROJAN-21"
   type: trojan
   server: "quiz.vidio.com"
-  port: 3043
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  port: 443
+  password: "318cab24-ec99-40a6-a54a-0db9c661a3d0"
+  sni: "aio.proxybox.dpdns.org"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "23.45.86.28"
+      Host: "aio.proxybox.dpdns.org"
 - name: "TROJAN-22"
   type: trojan
   server: "quiz.vidio.com"
-  port: 4801
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  port: 443
+  password: "f282b878-8711-45a1-8c69-5564172123c1"
+  sni: "vpn.stupidworld.web.id"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "23.45.86.28"
+      Host: "vpn.stupidworld.web.id"
 - name: "TROJAN-23"
   type: trojan
   server: "quiz.vidio.com"
-  port: 4317
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  port: 443
+  password: "f282b878-8711-45a1-8c69-5564172123c1"
+  sni: "vpn.stupidworld.web.id"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "23.45.86.28"
+      Host: "vpn.stupidworld.web.id"
 - name: "TROJAN-24"
   type: trojan
   server: "quiz.vidio.com"
   port: 443
-  password: "trojan"
-  sni: "azadnet2-dl4.pages.dev"
+  password: "f282b878-8711-45a1-8c69-5564172123c1"
+  sni: "aio.zipzap.biz.id"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/?ed=2560"
+    path: "/"
     headers:
-      Host: "azadnet2-dl4.pages.dev"
+      Host: "aio.zipzap.biz.id"
 - name: "TROJAN-25"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 443
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/Telegram🇨🇳"
+    path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-26"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 443
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/TelegramU0001F1E8U0001F1F3"
+    path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-27"
   type: trojan
   server: "quiz.vidio.com"
-  port: 1924
+  port: 4613
   password: "253bc477d4e43c209f2d427272968280"
   sni: "23.45.86.28"
   skip-cert-verify: false
@@ -354,7 +352,7 @@ proxies:
 - name: "TROJAN-28"
   type: trojan
   server: "quiz.vidio.com"
-  port: 4613
+  port: 1924
   password: "253bc477d4e43c209f2d427272968280"
   sni: "23.45.86.28"
   skip-cert-verify: false
@@ -367,30 +365,17 @@ proxies:
 - name: "TROJAN-29"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 1523
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/Telegram🇨🇳"
+    path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-30"
-  type: trojan
-  server: "quiz.vidio.com"
-  port: 443
-  password: "f282b878-8711-45a1-8c69-5564172123c1"
-  sni: "vpn.stupidworld.web.id"
-  skip-cert-verify: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: "/Stupid-World/103.106.228.126-2053"
-    headers:
-      Host: "vpn.stupidworld.web.id"
-- name: "TROJAN-31"
   type: trojan
   server: "quiz.vidio.com"
   port: 3043
@@ -403,10 +388,23 @@ proxies:
     path: "/"
     headers:
       Host: "23.45.86.28"
-- name: "TROJAN-32"
+- name: "TROJAN-31"
   type: trojan
   server: "quiz.vidio.com"
   port: 4801
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/"
+    headers:
+      Host: "23.45.86.28"
+- name: "TROJAN-32"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 4317
   password: "253bc477d4e43c209f2d427272968280"
   sni: "23.45.86.28"
   skip-cert-verify: false
@@ -420,28 +418,28 @@ proxies:
   type: trojan
   server: "quiz.vidio.com"
   port: 443
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  password: "trojan"
+  sni: "azadnet2-dl4.pages.dev"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/"
+    path: "/?ed=2560"
     headers:
-      Host: "23.45.86.28"
+      Host: "azadnet2-dl4.pages.dev"
 - name: "TROJAN-34"
   type: trojan
   server: "quiz.vidio.com"
-  port: 443
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/"
+    path: "/Telegram🇨🇳"
     headers:
-      Host: "23.45.86.28"
+      Host: "ocost-dy.wmlefl.cc"
 - name: "TROJAN-35"
   type: trojan
   server: "quiz.vidio.com"
@@ -452,78 +450,78 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: "/Telegram🇨🇳"
+    path: "/TelegramU0001F1E8U0001F1F3"
     headers:
       Host: "ocost-dy.wmlefl.cc"
 - name: "TROJAN-36"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
-  skip-cert-verify: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: "/Telegram🇨🇳"
-    headers:
-      Host: "ocost-dy.wmlefl.cc"
-- name: "TROJAN-37"
-  type: trojan
-  server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
-  skip-cert-verify: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: "/Telegram🇨🇳"
-    headers:
-      Host: "ocost-dy.wmlefl.cc"
-- name: "TROJAN-38"
-  type: trojan
-  server: "quiz.vidio.com"
-  port: 8443
-  password: "457f64d5-cc68-4911-82ee-636ebb568a46"
-  sni: "cdn-node-oss-99.paofu.de"
+  port: 1924
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "cdn-node-oss-99.paofu.de"
+      Host: "23.45.86.28"
+- name: "TROJAN-37"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 4613
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/"
+    headers:
+      Host: "23.45.86.28"
+- name: "TROJAN-38"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/Telegram🇨🇳"
+    headers:
+      Host: "ocost-dy.wmlefl.cc"
 - name: "TROJAN-39"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 443
+  password: "f282b878-8711-45a1-8c69-5564172123c1"
+  sni: "vpn.stupidworld.web.id"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/Telegram🇨🇳"
+    path: "/Stupid-World/103.106.228.126-2053"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "vpn.stupidworld.web.id"
 - name: "TROJAN-40"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 3043
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/Telegram🇨🇳"
+    path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-41"
   type: trojan
   server: "quiz.vidio.com"
-  port: 4317
+  port: 4801
   password: "253bc477d4e43c209f2d427272968280"
   sni: "23.45.86.28"
   skip-cert-verify: false
@@ -536,6 +534,32 @@ proxies:
 - name: "TROJAN-42"
   type: trojan
   server: "quiz.vidio.com"
+  port: 443
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/"
+    headers:
+      Host: "23.45.86.28"
+- name: "TROJAN-43"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 443
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/"
+    headers:
+      Host: "23.45.86.28"
+- name: "TROJAN-44"
+  type: trojan
+  server: "quiz.vidio.com"
   port: 2096
   password: "slch2024"
   sni: "ocost-dy.wmlefl.cc"
@@ -546,32 +570,6 @@ proxies:
     path: "/Telegram🇨🇳"
     headers:
       Host: "ocost-dy.wmlefl.cc"
-- name: "TROJAN-43"
-  type: trojan
-  server: "quiz.vidio.com"
-  port: 8443
-  password: "457f64d5-cc68-4911-82ee-636ebb568a46"
-  sni: "cdn-node-oss-99.paofu.de"
-  skip-cert-verify: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: "/"
-    headers:
-      Host: "cdn-node-oss-99.paofu.de"
-- name: "TROJAN-44"
-  type: trojan
-  server: "quiz.vidio.com"
-  port: 8443
-  password: "457f64d5-cc68-4911-82ee-636ebb568a46"
-  sni: "cdn-node-oss-99.paofu.de"
-  skip-cert-verify: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: "/"
-    headers:
-      Host: "cdn-node-oss-99.paofu.de"
 - name: "TROJAN-45"
   type: trojan
   server: "quiz.vidio.com"
@@ -588,108 +586,56 @@ proxies:
 - name: "TROJAN-46"
   type: trojan
   server: "quiz.vidio.com"
-  port: 1523
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/"
+    path: "/Telegram🇨🇳"
     headers:
-      Host: "23.45.86.28"
+      Host: "ocost-dy.wmlefl.cc"
 - name: "TROJAN-47"
   type: trojan
   server: "quiz.vidio.com"
-  port: 443
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  port: 8443
+  password: "457f64d5-cc68-4911-82ee-636ebb568a46"
+  sni: "cdn-node-oss-99.paofu.de"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
     path: "/"
     headers:
-      Host: "23.45.86.28"
+      Host: "cdn-node-oss-99.paofu.de"
 - name: "TROJAN-48"
   type: trojan
   server: "quiz.vidio.com"
-  port: 443
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/"
+    path: "/Telegram🇨🇳"
     headers:
-      Host: "23.45.86.28"
+      Host: "ocost-dy.wmlefl.cc"
 - name: "TROJAN-49"
   type: trojan
   server: "quiz.vidio.com"
-  port: 4613
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/"
+    path: "/Telegram🇨🇳"
     headers:
-      Host: "23.45.86.28"
+      Host: "ocost-dy.wmlefl.cc"
 - name: "TROJAN-50"
-  type: trojan
-  server: "quiz.vidio.com"
-  port: 1924
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
-  skip-cert-verify: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: "/"
-    headers:
-      Host: "23.45.86.28"
-- name: "TROJAN-51"
-  type: trojan
-  server: "quiz.vidio.com"
-  port: 1523
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
-  skip-cert-verify: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: "/"
-    headers:
-      Host: "23.45.86.28"
-- name: "TROJAN-52"
-  type: trojan
-  server: "quiz.vidio.com"
-  port: 3043
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
-  skip-cert-verify: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: "/"
-    headers:
-      Host: "23.45.86.28"
-- name: "TROJAN-53"
-  type: trojan
-  server: "quiz.vidio.com"
-  port: 4801
-  password: "253bc477d4e43c209f2d427272968280"
-  sni: "23.45.86.28"
-  skip-cert-verify: false
-  udp: true
-  network: ws
-  ws-opts:
-    path: "/"
-    headers:
-      Host: "23.45.86.28"
-- name: "TROJAN-54"
   type: trojan
   server: "quiz.vidio.com"
   port: 4317
@@ -702,123 +648,175 @@ proxies:
     path: "/"
     headers:
       Host: "23.45.86.28"
+- name: "TROJAN-51"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/Telegram🇨🇳"
+    headers:
+      Host: "ocost-dy.wmlefl.cc"
+- name: "TROJAN-52"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 8443
+  password: "457f64d5-cc68-4911-82ee-636ebb568a46"
+  sni: "cdn-node-oss-99.paofu.de"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/"
+    headers:
+      Host: "cdn-node-oss-99.paofu.de"
+- name: "TROJAN-53"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 8443
+  password: "457f64d5-cc68-4911-82ee-636ebb568a46"
+  sni: "cdn-node-oss-99.paofu.de"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/"
+    headers:
+      Host: "cdn-node-oss-99.paofu.de"
+- name: "TROJAN-54"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/Telegram🇨🇳"
+    headers:
+      Host: "ocost-dy.wmlefl.cc"
 - name: "TROJAN-55"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 1523
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/Telegram🇨🇳"
+    path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-56"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 443
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/Telegram🇨🇳"
+    path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-57"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 443
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/Telegram🇨🇳"
+    path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-58"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 4613
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/TelegramU0001F1E8U0001F1F3"
+    path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-59"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 1924
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/Telegram🇨🇳"
+    path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-60"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 1523
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/Telegram🇨🇳"
+    path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-61"
   type: trojan
   server: "quiz.vidio.com"
-  port: 443
-  password: "trojan"
-  sni: "azadnet2-dl4.pages.dev"
+  port: 3043
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/?ed=2560"
+    path: "/"
     headers:
-      Host: "azadnet2-dl4.pages.dev"
+      Host: "23.45.86.28"
 - name: "TROJAN-62"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 4801
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/Telegram🇨🇳"
+    path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-63"
   type: trojan
   server: "quiz.vidio.com"
-  port: 2096
-  password: "slch2024"
-  sni: "ocost-dy.wmlefl.cc"
+  port: 4317
+  password: "253bc477d4e43c209f2d427272968280"
+  sni: "23.45.86.28"
   skip-cert-verify: false
   udp: true
   network: ws
   ws-opts:
-    path: "/Telegram🇨🇳"
+    path: "/"
     headers:
-      Host: "ocost-dy.wmlefl.cc"
+      Host: "23.45.86.28"
 - name: "TROJAN-64"
   type: trojan
   server: "quiz.vidio.com"
@@ -848,6 +846,123 @@ proxies:
 - name: "TROJAN-66"
   type: trojan
   server: "quiz.vidio.com"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/Telegram🇨🇳"
+    headers:
+      Host: "ocost-dy.wmlefl.cc"
+- name: "TROJAN-67"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/TelegramU0001F1E8U0001F1F3"
+    headers:
+      Host: "ocost-dy.wmlefl.cc"
+- name: "TROJAN-68"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/Telegram🇨🇳"
+    headers:
+      Host: "ocost-dy.wmlefl.cc"
+- name: "TROJAN-69"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/Telegram🇨🇳"
+    headers:
+      Host: "ocost-dy.wmlefl.cc"
+- name: "TROJAN-70"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 443
+  password: "trojan"
+  sni: "azadnet2-dl4.pages.dev"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/?ed=2560"
+    headers:
+      Host: "azadnet2-dl4.pages.dev"
+- name: "TROJAN-71"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/Telegram🇨🇳"
+    headers:
+      Host: "ocost-dy.wmlefl.cc"
+- name: "TROJAN-72"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/Telegram🇨🇳"
+    headers:
+      Host: "ocost-dy.wmlefl.cc"
+- name: "TROJAN-73"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/Telegram🇨🇳"
+    headers:
+      Host: "ocost-dy.wmlefl.cc"
+- name: "TROJAN-74"
+  type: trojan
+  server: "quiz.vidio.com"
+  port: 2096
+  password: "slch2024"
+  sni: "ocost-dy.wmlefl.cc"
+  skip-cert-verify: false
+  udp: true
+  network: ws
+  ws-opts:
+    path: "/Telegram🇨🇳"
+    headers:
+      Host: "ocost-dy.wmlefl.cc"
+- name: "TROJAN-75"
+  type: trojan
+  server: "quiz.vidio.com"
   port: 443
   password: "2ee85121-31de-4581-a492-eb00f606e392"
   sni: "sj3.freeguard.org"
@@ -858,7 +973,7 @@ proxies:
     path: "/"
     headers:
       Host: "sj3.freeguard.org"
-- name: "TROJAN-67"
+- name: "TROJAN-76"
   type: trojan
   server: "quiz.vidio.com"
   port: 443
@@ -871,7 +986,7 @@ proxies:
     path: "/"
     headers:
       Host: "rc8.freeguard.org"
-- name: "TROJAN-68"
+- name: "TROJAN-77"
   type: trojan
   server: "quiz.vidio.com"
   port: 443
@@ -884,7 +999,7 @@ proxies:
     path: "/"
     headers:
       Host: "sto.freeguard.org"
-- name: "TROJAN-69"
+- name: "TROJAN-78"
   type: trojan
   server: "quiz.vidio.com"
   port: 443
